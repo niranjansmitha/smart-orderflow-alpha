@@ -89,6 +89,7 @@ Performance & Analytics
 
 ## 🗂 Project Structure
 
+
 smart-orderflow-alpha/
 │
 ├── notebooks/
@@ -108,6 +109,7 @@ smart-orderflow-alpha/
 ├── visualization/ # future extensions
 └── README.md
 
+> Note: Raw market data is excluded from this repository due to size constraints.
 
 ---
 
