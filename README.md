@@ -101,21 +101,31 @@ Performance & Analytics
 ```text
 smart-orderflow-alpha/
 │
+├── assets/
+│   ├── equity_curve.png
+│   └── feature_importance.png
+│
 ├── notebooks/
-│ ├── data_pipeline_check.ipynb
-│ ├── eda.ipynb
-│ ├── alpha_model.ipynb
-│ └── backtest.ipynb ⭐ flagship
+│   ├── data_pipeline_check.ipynb
+│   ├── eda.ipynb
+│   ├── alpha_model.ipynb
+│   └── backtest.ipynb
 │
 ├── research/
-│ └── feature_engineering/
+│   └── feature_engineering/
+│       ├── data_loader.py
+│       ├── preprocess.py
+│       ├── features.py
+│       └── labels.py
 │
 ├── data/
-│ └── raw/
+│   └── raw/
 │
-├── risk/ # future extensions
-├── execution/ # future extensions
-├── visualization/ # future extensions
+├── risk/
+├── execution/
+├── visualization/
+│
+├── requirements.txt
 └── README.md
 ```
 > Note: Raw market data is excluded from this repository due to size constraints.
@@ -126,6 +136,18 @@ smart-orderflow-alpha/
 
 ![Equity Curve](assets/equity_curve.png)
 ![Feature Importance](assets/feature_importance.png)
+
+---
+
+## 🛠 Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/niranjansmitha/smart-orderflow-alpha.git
+cd smart-orderflow-alpha
+pip install -r requirements.txt
+```
 
 
 ## 🧭 Roadmap (Planned Extensions)
