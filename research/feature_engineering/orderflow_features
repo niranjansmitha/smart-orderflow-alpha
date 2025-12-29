@@ -1,0 +1,3 @@
+def order_imbalance(df, window=50):
+    df['ofi'] = (df['bid_volume'] - df['ask_volume']).rolling(window).mean()
+    return df
