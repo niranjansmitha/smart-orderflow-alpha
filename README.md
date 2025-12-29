@@ -1,3 +1,8 @@
+![GitHub Repo Size](https://img.shields.io/github/repo-size/niranjansmitha/smart-orderflow-alpha)
+![GitHub stars](https://img.shields.io/github/stars/niranjansmitha/smart-orderflow-alpha?style=social)
+![Issues](https://img.shields.io/github/issues/niranjansmitha/smart-orderflow-alpha)
+
+
 # 🧠 Smart Order Flow Alpha Engine  
 
 **Institutional-Grade Quantitative Trading Research System**
