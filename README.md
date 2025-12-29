@@ -1,3 +1,8 @@
+![GitHub Repo Size](https://img.shields.io/github/repo-size/niranjansmitha/smart-orderflow-alpha)
+![GitHub stars](https://img.shields.io/github/stars/niranjansmitha/smart-orderflow-alpha?style=social)
+![Issues](https://img.shields.io/github/issues/niranjansmitha/smart-orderflow-alpha)
+
+
 # 🧠 Smart Order Flow Alpha Engine  
 
 **Institutional-Grade Quantitative Trading Research System**
@@ -25,20 +30,24 @@ An end-to-end quantitative trading system built on **BankNifty intraday data**, 
 
 ## 🧱 System Architecture
 
+```text
 Market Data
-↓
+   ↓
 Feature Engineering (Microstructure Signals)
-↓
+   ↓
 ML Alpha Model (XGBoost)
-↓
+   ↓
 Signal Generation
-↓
-Risk Engine (Volatility Targeting + Kill-Switch + Cooldown)
-↓
+   ↓
+Risk Engine
+   • Volatility Targeting
+   • Drawdown Kill-Switch
+   • Regime Cooldown
+   ↓
 Backtesting Engine
-↓
+   ↓
 Performance & Analytics
-
+```
 
 
 ---
@@ -89,7 +98,7 @@ Performance & Analytics
 
 ## 🗂 Project Structure
 
-
+```text
 smart-orderflow-alpha/
 │
 ├── notebooks/
@@ -108,10 +117,16 @@ smart-orderflow-alpha/
 ├── execution/ # future extensions
 ├── visualization/ # future extensions
 └── README.md
-
+```
 > Note: Raw market data is excluded from this repository due to size constraints.
 
 ---
+
+## 📊 Results Snapshot
+
+![Equity Curve](assets/equity_curve.png)
+![Feature Importance](assets/feature_importance.png)
+
 
 ## 🧭 Roadmap (Planned Extensions)
 
